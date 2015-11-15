@@ -1,18 +1,11 @@
 # Word Cloud Layout
 
-This is a [Wordle](http://www.wordle.net/)-inspired word cloud layout written
-in JavaScript. It uses HTML5 canvas and sprite masks to achieve
-near-interactive speeds.
+This is a [Jason Davies](http://www.jasondavies.com/wordcloud/)-inspired word cloud layout.
 
-See [here](http://www.jasondavies.com/wordcloud/) for an interactive
-demonstration along with implementation details.
-
-![Example cloud of Twitter search results for “amazing”](http://www.jasondavies.com/wordcloud/amazing.png)
-
-## Usage
-
+<img src="examples/img/wordcloud.png" alt="">
 See the samples in `examples/`.
 
-This layout requires [D3](http://mbostock.github.com/d3/).  It’s similar to
-[d3.layout.force](https://github.com/mbostock/d3/wiki/Force-Layout), in that
-it’s **asynchronous** and **stateful**.
+## Usage:
+`examples/wordcloud.html` uses sample data from `data/wordcloudtext.json`.
+To test the word loud layout, modify the text under "content" in the JSON file.
+Refer to [Jason Davies](https://github.com/jasondavies/d3-cloud) word cloud repo for complete API reference.
